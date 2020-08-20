@@ -1,0 +1,117 @@
+#login {
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2980b9, #0984e3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2980b9, #0984e3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.border-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 80px;
+}
+
+.header .menu {
+    height: 25px;
+}
+
+#userid, #password {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.login {
+    background-color: whitesmoke;
+    margin-top: 10%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-bidang {
+    background-color: white;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+#menu {
+    background-color: whitesmoke;
+}
+
+.copy {
+    font-size: 12px;
+}
+
+.navbar-color {
+    background-color: #34495e;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+span {
+    color: #34495e;
+}
+
+#content-4, #footer-text-web, .btn-daftar {
+    background-color: #34495a;
+}
+
+#footer-text-web {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#content-4 .span-content {
+    color: whitesmoke;
+}
+
+#cp {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#content-2, #content-5, #cp {
+    background-color: whitesmoke;
+}
+
+/* PDF */
+
+#pdf {
+    height: 600px;
+    width: 550px;
+}
+
+/* Waktu */
+
+.waktu p {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 23px;
+}
+
+.email:hover {
+    color: tomato;
+}
+
+.instagram:hover {
+    color: purple;
+}
+
+.youtube:hover, .love:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+@media(max-width:720px) {
+    .login {
+        margin-top: 20%;
+    }
+    #pdf {
+        height: 450px;
+        width: 350px;
+    }
+}
